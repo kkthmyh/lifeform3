@@ -1,0 +1,13 @@
+#节点RPC
+rpcConfig:
+  #必填 bscRPC路由,不建议修改
+  bscRpc: "https://bsc-dataseed3.ninicoin.io"
+
+#mint参数设置
+mintConfig:
+  #必填 lifeform合约地址,无需修改
+  contractAddress: "0x37ac6a9b55dcec42145a2147c2fcccb4c737c7e4"
+  #必填 邀请人地址,填写自己地址
+  affAddress: "0x811A7FcF536550541Fd7A6867F716BeAfbB1Ed16"
+  #必填 需要mint人物的性别 female or male
+  gender: "male"
